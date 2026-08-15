@@ -50,40 +50,42 @@ Display Helm help:
 helm help
 ```
 Display Helm environment variables:
-
+```bash
 helm env
-
+```
 Check install command help:
-
+```bash
 helm install --help
-
+```
 Check repository command help:
-
+```bash
 helm repo --help
-
+```
 Check chart creation help:
-
+```bash
 helm create --help
-Step 6 - Verify Helm Connectivity
+```
+### Step 6 - Verify Helm Connectivity
 
 List Helm releases:
-
+```bash
 helm list
-
+```
 List Helm releases across all namespaces:
-
+```bash
 helm list -A
-
+```
 If no releases exist, an empty list is expected.
 
-Step 7 - Final Verification
+### Step 7 - Final Verification
 
 Run all verification commands:
-
+```bash
 kubectl get nodes
 helm version
 helm list
 helm list -A
-Cleanup
+```
+## Cleanup
 
 No cleanup is required for this lab because no Helm charts were installed.
