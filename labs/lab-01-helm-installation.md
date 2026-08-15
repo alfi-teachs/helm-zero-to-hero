@@ -15,7 +15,7 @@ Expected Output:
 
 NAME           STATUS   ROLES           AGE   VERSION
 minikube       Ready    control-plane   XXd   v1.xx.x
-Step 2 - Check kubectl
+### Step 2 - Check kubectl
 kubectl version --client
 
 Check current Kubernetes context:
