@@ -1,5 +1,5 @@
 # Lab 02 - Helm Repositories
-Objective
+## Objective
 
 Understand what Helm repositories are
 
