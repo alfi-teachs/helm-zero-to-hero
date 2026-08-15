@@ -16,32 +16,36 @@ Expected Output:
 NAME           STATUS   ROLES           AGE   VERSION
 minikube       Ready    control-plane   XXd   v1.xx.x
 ### Step 2 - Check kubectl
+```bash
 kubectl version --client
-
+```
 Check current Kubernetes context:
-
+```bash
 kubectl config current-context
-Step 3 - Check if Helm is Installed
+```
+### Step 3 - Check if Helm is Installed
+```bash
 helm version
-
+```
 If Helm is installed, you should see a version similar to:
 
 version.BuildInfo{Version:"v3.x.x"}
-Step 4 - Install Helm (Linux/Ubuntu)
+### Step 4 - Install Helm (Linux/Ubuntu)
 
 If Helm is not installed:
-
+```bash
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
-
+```
 Verify installation:
-
+```bash
 helm version
-Step 5 - Explore Helm Commands
+```
+### Step 5 - Explore Helm Commands
 
 Display Helm help:
-
+```bash
 helm help
-
+```
 Display Helm environment variables:
 
 helm env
