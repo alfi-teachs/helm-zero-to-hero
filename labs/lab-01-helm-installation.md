@@ -9,12 +9,15 @@ Verify Kubernetes connectivity
 Explore basic Helm commands
 
 ### Step 1 - Check Kubernetes Cluster
+```bash
 kubectl get nodes
-
+```
 Expected Output:
 
 NAME           STATUS   ROLES           AGE   VERSION
+```bash
 minikube       Ready    control-plane   XXd   v1.xx.x
+```
 ### Step 2 - Check kubectl
 ```bash
 kubectl version --client
